@@ -1,0 +1,22 @@
+@import url(css-reset-josh.css);
+
+/* Desktop style */
+body {
+  background-color: yellow;
+}
+
+/* Tablet style */
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 10px 10px;
+    background-color: red;
+  }
+}
+
+/* Mobile style */
+@media screen and (max-width: 500px) {
+  body {
+    margin: 5px 5px;
+    background-color: dodgerblue;
+  }
+}

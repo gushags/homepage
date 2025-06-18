@@ -56,11 +56,13 @@ p {
     transform: rotate(-30deg);
     box-shadow: 1px 1px 10px gray;
   }
-
+  #photo-container {
+    position: relative;
+  }
   .name {
     position: absolute;
     width: 100%;
-    top: 370px;
+    bottom: 40px;
   }
   h1 {
     margin-left: 15%;

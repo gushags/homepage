@@ -350,4 +350,24 @@ footer picture {
   .large-card p {
     font-size: 1.4rem;
   }
+
+  /* work section */
+  .work {
+    padding-bottom: 100px;
+  }
+  .work-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* footer section */
+  footer {
+    grid-template-columns: 2fr 3fr;
+  }
+  footer div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  #footer-left {
+    margin: 30px 60px;
+  }
 }

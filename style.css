@@ -60,7 +60,7 @@ p {
   .name {
     position: absolute;
     width: 100%;
-    top: 390px;
+    top: 370px;
   }
   h1 {
     margin-left: 15%;
@@ -105,6 +105,7 @@ p {
   .social div img {
     height: 30px;
   }
+
   .linkedin {
     padding: 0 15px;
   }
@@ -112,13 +113,16 @@ p {
   /* work section */
   .work {
     padding-top: 70px;
+    padding-bottom: 140px;
   }
+
   .card {
     margin: 40px 30px;
     height: 470px;
     background: white;
     box-shadow: 1px 1px 10px gray;
   }
+
   .top {
     height: 285px;
     display: flex;
@@ -170,5 +174,32 @@ p {
   .card p {
     margin-left: 21px;
     font-size: 1.1rem;
+  }
+
+  footer {
+    background-color: #4692d9;
+    color: white;
+    padding-top: 20px;
+    line-height: 1;
+  }
+  footer p {
+    margin: 20px;
+  }
+
+  footer div p {
+    margin: 0 20px;
+    font-size: 1.2rem;
+  }
+
+  footer div {
+    margin-top: 20px;
+  }
+  #phone,
+  #email {
+    font-size: 1.2rem;
+  }
+
+  footer picture {
+    margin-top: 70px;
   }
 }

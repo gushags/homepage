@@ -185,6 +185,9 @@ footer picture {
 
 /* Tablet style */
 @media screen and (min-width: 501px) {
+  .tablet-hidden {
+    display: none;
+  }
   #angle {
     position: absolute;
     top: -400px;
@@ -214,14 +217,10 @@ footer picture {
     font-weight: 500;
   }
 
-  .tablet-hidden {
-    display: none;
-  }
-
   .large-card {
     z-index: -1;
     width: 80%;
-    margin: 150px auto 10px; auto;
+    margin: 150px auto 10px auto;
     padding: 80px 0;
     background-color: white;
     box-shadow: 2px 2px 10px gray;
@@ -236,6 +235,56 @@ footer picture {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-top: 10px;
+  }
+
+  /* work section */
+  .work {
+    padding: 35px 0 225px 0;
+  }
+  .work-container {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  #my-work {
+    text-align: left;
+    margin-left: 10%;
+  }
+  .card {
+    margin: 20px 30px;
+  }
+
+  /* footer section */
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
+  }
+  footer p {
+    color: white;
+  }
+
+  footer picture {
+    margin: 0;
+    padding: 0 40px;
+  }
+  #phone {
+    margin-top: 20px;
+  }
+  #phone::before {
+    content: url(img/phone.svg);
+    display: inline-block;
+    width: 27px;
+    padding-right: 7px;
+    vertical-align: middle;
+  }
+  #email::before {
+    content: url(img/email.svg);
+    display: inline-block;
+    width: 27px;
+    padding-right: 7px;
+    vertical-align: middle;
   }
 }
 

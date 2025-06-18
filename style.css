@@ -306,7 +306,48 @@ footer picture {
 
 /* Desktop style */
 @media screen and (min-width: 1001px) {
-  body {
-    background-color: yellow;
+  #angle {
+    top: -350px;
+    left: -500px;
+
+    height: 750px;
+    width: 3000px;
+    transform: rotate(-15deg);
+    box-shadow: 1px 1px 10px gray;
+  }
+
+  #photo-container {
+    position: relative;
+  }
+
+  .name {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 500px;
+    left: 100px;
+  }
+
+  #intro-pic {
+    width: 550px;
+    margin: 35px 30px 90px 80px;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  .large-card {
+    width: 80%;
+    margin: 100px auto 10px auto;
+    padding: 40px 0;
+  }
+  .large-card h2 {
+    text-align: left;
+  }
+  .large-card p {
+    font-size: 1.4rem;
   }
 }

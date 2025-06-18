@@ -109,13 +109,13 @@ p {
 
   /* work section */
   .work {
-    padding-top: 20px;
-    background-color: dodgerblue;
+    padding-top: 70px;
   }
   .card {
     margin: 40px 30px;
     height: 470px;
-    background: red;
+    background: white;
+    box-shadow: 1px 1px 10px gray;
   }
   .top {
     height: 285px;
@@ -140,10 +140,19 @@ p {
 
   .screenshot {
     color: white;
+    margin: 0 25px;
   }
   .title {
     display: flex;
-    background: blue;
+    margin: 10px;
+  }
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    margin-left: 10px;
   }
   .card-social {
     flex: 1;
@@ -151,7 +160,13 @@ p {
     justify-content: right;
   }
   .card-social img {
-    height: 30px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
     color: black;
+  }
+  .card p {
+    margin-left: 21px;
+    font-size: 1.1rem;
   }
 }
